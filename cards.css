@@ -1,0 +1,143 @@
+.cards{
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/flor_fundo.jpg);
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cards .flores{
+    color: white;
+    font-size: 2.7rem;
+    padding-bottom: 20px;
+    position: relative;
+}
+.cards .flores::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-20px);
+}
+.cards_content{
+    max-width: 1010px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card_bloco{
+    width: 250px;
+    height: 250px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.card_image{
+    width:85%;
+    height: 70%;
+    border-radius: 15px 15px 0px 0px;
+    border: 2px solid white;
+}
+.card1 .card_image{
+    background: url(img/flor01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card2 .card_image{
+    background: url(img/flor02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3 .card_image{
+    background: url(img/flor03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4 .card_image{
+    background: url(img/flor04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_bloco .card_text{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(20, 9, 63, 0.733);
+    border-radius: 0px 0px 15px 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about_flores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/flor_frase01.jpg);
+}
+.conteudo_flores{
+    max-width: 900px;
+    padding: 10px 20px;
+    color: white;
+}
+.conteudo_flores h2{
+    font-size: 2.9rem;
+    padding-bottom: 20px;
+}
+.conteudo_flores p{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 25px;
+}
+.titulo_card{
+    position: relative;
+}
+.titulo_card::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    transform: translateY(-25px);
+}
+footer{
+    background-color: rgb(156, 38, 87);
+    padding: 15px 0px;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3{
+    padding: 10px;
+}
